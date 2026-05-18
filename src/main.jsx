@@ -14,7 +14,7 @@ import { CartProvider } from "./context/CartContext.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/React-Product-Store/">
       <AuthProvider>
         <ThemeProvider>
           <CartProvider>
